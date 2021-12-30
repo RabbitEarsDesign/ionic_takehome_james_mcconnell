@@ -1,0 +1,25 @@
+.features {
+  background: #fff;
+  padding: 3rem 6rem;
+}
+
+.featureItems {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.featureHeader {
+  text-align: center;
+  margin: 2rem;
+}
+
+@media (max-width: 769px) {
+  .features {
+    padding: 2rem;
+  }
+  .featureItems {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,43 @@
+.featureItem {
+  position: relative;
+  width: 50%;
+  /* margin: 10px 20px; */
+  padding: 0 20px;
+}
+
+.featureItem .icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 48px;
+  height: 48px;
+  color: var(--primary-color);
+}
+
+.featureItem .featureItemDetails {
+  /* position: absolute;
+  top: 0;
+  left: 50px; */
+  margin-left: 60px;
+}
+
+.featureItem .featureItemDetails h3 {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+
+.featureItem .featureItemDetails p {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+@media (max-width: 769px) {
+  .featureItem {
+    width: 100%;
+  }
+}

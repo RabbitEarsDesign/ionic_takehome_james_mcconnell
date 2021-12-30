@@ -1,0 +1,24 @@
+.img {
+  background: url("../image.png") no-repeat center center/cover;
+  position: relative;
+  width: 100%;
+  height: 634px;
+  flex: 1;
+  z-index: 1;
+}
+
+.img:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(73, 101, 203, 0.4);
+}
+
+@media (max-width: 800px) {
+  .img {
+    display: none;
+  }
+}

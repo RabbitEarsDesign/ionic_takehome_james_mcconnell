@@ -1,0 +1,51 @@
+.cta {
+  background: var(--bg-light);
+  padding: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cta div:last-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta h2 {
+  margin: 0;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 700;
+  letter-spacing: -3%;
+  vertical-align: center;
+}
+
+.cta h2:last-child {
+  color: var(--primary-color);
+}
+
+@media (max-width: 850px) {
+  .cta {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .cta div {
+    margin: 20px 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .cta h2 {
+    font-size: 32px;
+  }
+
+  .cta div:last-child {
+    flex-direction: column;
+  }
+
+  .cta div:last-child button {
+    margin: 5px 0;
+  }
+}
