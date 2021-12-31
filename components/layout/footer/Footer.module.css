@@ -62,6 +62,7 @@
   align-items: center;
 
   border-top: 0.5px solid #8f9aaa;
+  padding-top: 1rem;
   margin-top: 2rem;
 }
 
@@ -75,6 +76,10 @@
   width: 20px;
   height: 20px;
   margin: 10px;
+}
+
+.footerSocials .icon:last-child {
+  margin-right: 0px;
 }
 
 @media (max-width: 500px) {

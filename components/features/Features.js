@@ -19,7 +19,7 @@ function Features() {
   return (
     <section className={classes.features}>
       <div className={classes.featureHeader}>
-        <p>Features</p>
+        <p>FEATURES</p>
         <h2>A better way to work together</h2>
         <p>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum esse

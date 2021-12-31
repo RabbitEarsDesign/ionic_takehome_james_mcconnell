@@ -22,7 +22,6 @@ function Footer() {
       <div className={classes.footerTop}>
         <ul>
           <li>Solutions</li>
-
           <FooterLink href="/solutions/screenshare">Screen Sharing</FooterLink>
           <FooterLink href="/solutions/marketing">Marketing</FooterLink>
           <FooterLink href="/solutions/commerce">Commerce</FooterLink>

@@ -18,7 +18,7 @@ function Header() {
   const { height, width } = useWindowDimensions();
 
   const nav =
-    width > 800 ? (
+    width >= 800 ? (
       <Nav />
     ) : (
       <div className={classes.flex}>
