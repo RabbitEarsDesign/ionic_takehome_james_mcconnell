@@ -21,7 +21,7 @@ function Header() {
     width >= 800 ? (
       <Nav />
     ) : (
-      <div className={classes.flex}>
+      <div className={classes.mobileNav}>
         <Logo />
         <Hamburger />
       </div>
@@ -29,8 +29,8 @@ function Header() {
 
   return (
     <header className={classes.header}>
-      {/* {nav} */}
-      <Nav />
+      {nav}
+      {/* <Nav /> */}
 
       <div className={classes.flex}>
         <Copy />

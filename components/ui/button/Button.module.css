@@ -29,3 +29,10 @@
     padding: 7px 10px;
   }
 }
+
+@media (max-width: 350px) {
+  .btn {
+    font-size: 10px;
+    line-height: 10px;
+  }
+}

@@ -10,17 +10,19 @@ import Footer from "../components/layout/footer/Footer";
 
 function LandingPage() {
   return (
-    <div>
+    <>
       <Head>
         <title>Takehome || James McConnell</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="description" content="Take home test || James McConnell" />
       </Head>
-      <Header />
-      <Features />
-      <CTA />
-      <Footer />
-    </div>
+      <body>
+        <Header />
+        <Features />
+        <CTA />
+        <Footer />
+      </body>
+    </>
   );
 }
 

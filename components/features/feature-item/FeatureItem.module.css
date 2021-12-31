@@ -15,9 +15,6 @@
 }
 
 .featureItem .featureItemDetails {
-  /* position: absolute;
-  top: 0;
-  left: 50px; */
   margin-left: 60px;
 }
 
@@ -39,5 +36,16 @@
 @media (max-width: 769px) {
   .featureItem {
     width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .featureItem .icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .featureItem .featureItemDetails {
+    margin-left: 40px;
   }
 }
