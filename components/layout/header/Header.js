@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import hero from "./image.png";
 
 // HOOKS
@@ -15,7 +15,6 @@ import Logo from "../../ui/logo/Logo";
 import classes from "./Header.module.css";
 
 function Header() {
-  // @todo useEffect and useState to display the nav or hamburger depending on window width
   const { height, width } = useWindowDimensions();
 
   const nav =
