@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 
 // FONTAWESOME
@@ -10,13 +10,15 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 // COMPONENTS
-import Button from "../../ui/button/Button";
 import FooterLink from "./footer-link/FooterLink";
+import FooterForm from "./footer-form/FooterForm";
 
 // CSS
 import classes from "./Footer.module.css";
 
 function Footer() {
+  const [formSubmitted, setFormSubmitted] = useState(false);
+
   return (
     <footer className={classes.footer}>
       <div className={classes.footerTop}>
@@ -53,10 +55,10 @@ function Footer() {
             Get the latest news, articles, and resources, sent to your inbox
             every week.
           </p>
-          <form className={classes.footerForm}>
-            <input type="email" placeholder="Email" />
-            <Button primary={true}>Subscribe</Button>
-          </form>
+          <FooterForm setFormSubmitted={setFormSubmitted} />
+          {formSubmitted && (
+            <p className={classes.success}>Thank you for submitting!</p>
+          )}
         </div>
       </div>
       <div className={classes.footerBottom}>

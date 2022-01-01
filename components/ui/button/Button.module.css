@@ -1,5 +1,6 @@
 .btn {
-  /* font-family: Inter; */
+  cursor: pointer;
+  font-family: Inter;
   border: none;
   background: var(--primary-color);
   font-style: normal;
@@ -15,6 +16,11 @@
   color: #ffffff;
   padding: 10px 15px;
   margin-right: 1rem;
+}
+
+.btn:hover {
+  opacity: 0.95;
+  transform: scale(0.98);
 }
 
 .secondary {
