@@ -29,7 +29,8 @@ function Header() {
 
   return (
     <header className={classes.header}>
-      {nav}
+      {/* {nav} */}
+      <Nav />
       <div className={classes.flex}>
         <Copy />
         <Image src={hero} />
