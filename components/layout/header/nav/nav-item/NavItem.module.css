@@ -1,8 +1,7 @@
 .navItem {
   padding: 10px 15px;
 
-  /* FIGMA STYLES */
-  /* font-family: Inter; */
+  font-family: Inter;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -12,6 +11,17 @@
   text-align: center;
 
   color: #7b8798;
+}
+
+.navItem a {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
 .navItem:nth-child(6) {

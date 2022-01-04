@@ -12,7 +12,7 @@ function FeatureItem(props) {
       <FontAwesomeIcon icon={props.icon} className={classes.icon} />
       <div className={classes.featureItemDetails}>
         <h3>{props.title}</h3>
-        <p> {props.children}</p>
+        <p>{props.children}</p>
       </div>
     </div>
   );

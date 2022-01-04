@@ -9,6 +9,10 @@
   padding-left: 10px;
 }
 
+.footerForm input::placeholder {
+  color: #c1c8d6;
+}
+
 @media (max-width: 350px) {
   .footerForm {
     flex-direction: column;

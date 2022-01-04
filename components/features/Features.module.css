@@ -28,10 +28,11 @@
   margin: 0 auto;
 }
 
-.featurHeader p:first-child {
+.featureHeader p:first-child {
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
 
 @media (max-width: 769px) {
