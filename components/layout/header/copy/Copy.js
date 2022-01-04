@@ -11,7 +11,7 @@ function Copy() {
         <h1>Done together.</h1>
         <p>
           Build a better business, faster. Start sharing your work across your
-          company-in real time.
+          company-in realtime.
         </p>
         <div className={classes.actions}>
           <Button primary={true}>Try it free</Button>

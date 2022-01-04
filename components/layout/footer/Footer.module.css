@@ -91,6 +91,9 @@
   border-top: 0.5px solid #8f9aaa;
   padding-top: 1rem;
   margin-top: 2rem;
+  color: #c1c8d6;
+  font-size: 16px;
+  line-height: 160%;
 }
 
 .footerBottom span {
@@ -114,6 +117,7 @@
   width: 20px;
   height: 20px;
   margin: 10px;
+  color: #a0a6b1;
 }
 
 .footerSocials .icon:last-child {

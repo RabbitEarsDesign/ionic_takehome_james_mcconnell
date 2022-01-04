@@ -26,6 +26,13 @@
 .featureHeader p {
   max-width: 692px;
   margin: 0 auto;
+
+  font-size: 20px;
+  line-height: 150%;
+  font-weight: normal;
+  font-style: normal;
+  font-family: "Inter";
+  color: #535c68;
 }
 
 .featureHeader p:first-child {

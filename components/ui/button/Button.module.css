@@ -24,7 +24,7 @@
 }
 
 .secondary {
-  background: rgb(226, 232, 254);
+  background: #e6ecff;
   color: var(--secondary-color);
 }
 

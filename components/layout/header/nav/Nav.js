@@ -11,7 +11,7 @@ import classes from "./Nav.module.css";
 function Nav() {
   return (
     <nav className={classes.nav}>
-      <ul className={classes.list}>
+      <ul>
         <NavItem href="/">
           <Logo />
         </NavItem>
@@ -19,7 +19,7 @@ function Nav() {
         <NavItem href="/features">Features</NavItem>
         <NavItem href="/enterprise">Enterprise</NavItem>
         <NavItem href="/company">Company</NavItem>
-        <NavItem href="/">SignIn</NavItem>
+        <NavItem href="/">Sign In</NavItem>
         <NavItem href="#">Download</NavItem>
       </ul>
     </nav>
