@@ -3,17 +3,18 @@
   /* position: fixed; */
   /* top: 0; */
   /* right: 0; */
+  position: relative;
   margin-left: auto;
   background: blue;
   z-index: 1;
 }
 
 .menuWrap .toggler {
-  /* position: absolute; */
-
-  top: 0;
-  left: 0;
-  z-index: 2;
+  position: sticky;
+  position: fixed;
+  top: 1rem;
+  right: 3rem;
+  z-index: 200;
   cursor: pointer;
   width: 30px;
   height: 30px;
@@ -29,6 +30,7 @@
   height: 60px;
   padding: 1rem;
   background: var(--primary-color);
+
   display: flex;
   align-items: center;
   justify-content: center;
