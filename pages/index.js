@@ -16,12 +16,12 @@ function LandingPage() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name="description" content="Take home test || James McConnell" />
       </Head>
-      <body>
+      <div>
         <Header />
         <Features />
         <CTA />
         <Footer />
-      </body>
+      </div>
     </>
   );
 }
