@@ -42,4 +42,8 @@
   .featureItems {
     flex-direction: column;
   }
+
+  .featureHeader h2 {
+    font-size: 32px;
+  }
 }
